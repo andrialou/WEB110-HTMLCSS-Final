@@ -1,0 +1,671 @@
+/*border-radius is a CSS3 property*/
+#wrapper
+    {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #99C1C0;
+    border-radius: 70px;
+    }
+body
+    {
+    background-color: #248188; 
+    color: #073242;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+header
+    {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    }
+header a
+    {
+    text-decoration: none;
+    color: #073242;
+    }
+header a:hover
+    {
+    color: #248188;
+    }
+nav
+    {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #CC8A1C;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 5px;
+    }
+nav ul
+    {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    }
+nav li
+    {
+    display: block;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-family: Georgia, "Times New Roman", serif;
+    }
+nav a
+    {
+    text-decoration: none;
+    color: #F2EAE7;
+    }
+nav a:hover
+    {
+    color: #073242;
+    }
+nav ul
+    {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    }
+nav li
+    {
+    display: block;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-family: Georgia, "Times New Roman", serif;
+    }
+nav a
+    {
+    text-decoration: none;
+    }
+.bottomnav
+    {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 90px;
+    }
+h2
+    {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 2em;
+    }
+h3
+    {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.5em;
+    }
+p
+    {
+    font-size: 1.2em;
+    text-align: justify;
+    }
+main
+    {
+    padding: 1em;
+    background-color: #F2EAE7;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+main li
+    {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 0.5em;
+    }
+aside
+    {
+    margin-left: 5%;
+    margin-right: 5%;  
+    }
+aside a
+    {
+    color: #073242;
+    }
+.asidemain
+    {
+    visibility: visible;
+    }
+.asidecontent
+    {
+    visibility: hidden;
+    display: none;
+    }
+figure
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 2em;
+    }
+figcaption
+    {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 2em;
+    }
+/*For the home page image*/
+#image
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    width: 100%;
+    margin-top: 2em;
+    border: 5px solid #CC8A1C;
+    }
+/*I found a tutorial for coding the embedded YouTube video the way I wanted to https://www.youtube.com/watch?v=9YffrCViTVk&ab_channel=tipswithpunch */
+.video1
+    {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom: 1em;
+    border: 5px solid #CC8A1C;
+    }
+.video1 iframe
+    {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+.video2
+    {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom: 1em;
+    border: 5px solid #CC8A1C;
+    }
+.video2 iframe
+    {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+/*I included the embedded form styles in the external sheet as a backup*/
+form
+    {
+    width: 100%;
+    padding: 10px;
+    }
+legend
+    {
+    font-size: 1.2em;
+    }
+#myInfo label
+    {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    }
+#myInfo input
+    {
+    width: 25%;
+    }
+#system
+    {
+    display: block;
+    margin-top: 1em;
+    font-size: 1.2em;
+    }
+#questions
+    {
+    margin-bottom: 1em;
+    }
+textarea
+    {
+    width: 100%;
+    height: 5em;
+    }
+#comments
+    {
+    display: block;
+    margin-top: 1em;
+    font-size: 1.2em;
+    }
+#submitReset
+    {
+    font-size: 1.2em;
+    text-align: center;
+    color: #073242;
+    }
+table
+    {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 5px solid #CC8A1C;
+    margin-bottom: 1em;
+    background-color: white;
+    color: #073242;
+    }
+th
+    {
+    border: 1px solid #CC8A1C;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+td
+    {
+    border: 1px solid #CC8A1C;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    }
+td a
+    {
+    color: #248188;
+    }
+td a:hover
+    {
+    color: #99C1C0;
+    }
+caption
+    {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.5em;
+    }
+/*I found this trick on the W3Schools website, to make the table scrollable on the x-axis on smaller screens. This works better than if I had tried to make the table smaller or reorder it.*/
+#overflow
+    {
+    overflow-x: auto;
+    }
+/*These three IDs are for the table images*/
+#js
+    {
+    width: 20%;
+    height: auto;
+    }
+#python
+    {
+    width: 20%;
+    height: auto;
+    }
+#r
+    {
+    width: 20%;
+    height: auto;
+    }
+/*I used this for anything I was having trouble centering with margin-left/right: auto;*/
+.center
+    {
+    text-align: center;
+    }
+/*This makes the bullet points in the aside of the Details page look more centered*/
+#paddingLeft
+    {
+    padding-left: 15%;
+    }
+/*Used the same as above but with a different value for the Objectives page*/
+#paddingLeftOb
+    {
+    padding-left: 25%;
+    }
+#objectivesAside
+    {
+    padding-top: 0em;
+    }
+#objectivesAside li
+    {
+    font-size: 1.2em;
+    }
+#space
+    {
+    margin-top: 2em;
+    }
+/*For the image on the Contact page.*/
+#headshot
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em; 
+    width: 70%;
+    margin-top: 2em;
+    border: 5px solid #CC8A1C;
+    }
+/*For the image on the Credits page*/
+#htmlcss
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    width: 80%;
+    margin-top: 2em;
+    border: 5px solid #CC8A1C;
+    background-color: white;
+    }
+/*For the image on the Objectives page*/
+#jccc
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    width: 80%;
+    margin-top: 2em;
+    background-color: white;
+    margin-top: 2em;
+    border: 5px solid #CC8A1C;
+    }
+/*These two IDs I used to make the aside information appear in different places depending on the screen size. The "Contact Us" info appears above the form on smaller screens, whereas left alone it would have appeared below. Visibility is a CSS3 property, though I also utilized the display property to remove empty white space. I also used this method for the fragment identifiers on the Details page with the .jumpto class.*/
+#contactMain
+    {
+    visibility: visible;
+    }
+#contactMain a
+    {
+    color: #073242;
+    }
+#contactMain a:hover
+    {
+    color: #248188;
+    }
+.jumpto
+    {
+    visibility: visible;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    color: #073242;
+    margin-bottom: 1em;
+    }
+.jumpto:hover
+    {
+    color: #248188;
+    }
+.jumpto a
+    {
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    color: #073242;
+    }
+.jumpto a:hover
+    {
+    color: #248188;
+    }
+#jumptoh3
+    {
+    margin-bottom: 0;
+    color: #073242;
+    }
+#jumptoh3:hover
+    {
+    color: #073242;
+    }
+/*This is for the link on each page that goes to the Credits page.*/
+#sources
+    {
+    text-align: center;
+    display: block;
+    font-size: 1.2em;
+    color: #248188;
+    }
+#sources:hover
+    {
+    color: #99C1C0;
+    }
+#credits a
+    {
+    color: #073242;
+    }
+#credits a:hover
+    {
+    color: #248188;
+    }
+#credits p
+    {
+    text-align: left;
+    }
+#download
+    {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 1em;
+    color: #248188;
+    }
+#download:hover
+    {
+    color: #99C1C0;
+    }
+#download a
+    {
+    color: #248188;
+    }
+#download a:hover
+    {
+    color: #99C1C0;
+    }
+footer 
+    {
+    font-size: 1em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    }
+footer a
+    {
+    color: #073242;
+    }
+footer a:hover
+    {
+    color: #248188;
+    }
+@media (min-width: 600px) 
+    {
+    header
+        {
+        font-size: 2em;
+        }
+    nav li
+        {
+        display: inline-block;
+        width: 3em;
+        padding: 0.5em;
+        vertical-align: middle;
+        text-align: center;
+        }
+    nav ul
+        {
+        text-align: center;
+        }
+    nav a
+        {
+        text-align: center;
+        }
+    .center
+        {
+        text-align: center;
+        }
+    #paddingLeft
+        {
+        padding-left: 30%;
+        }
+    #paddingLeftOb
+        {
+        padding-left: 40%;
+        }
+    #headshot
+        {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        margin-bottom: 1em; 
+        width: 50%;
+        margin-top: 2em;
+        }
+    #htmlcss
+        {
+        width: 50%;
+        }
+    #jccc
+        {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+        padding-bottom: 1em; 
+        width: 70%;
+        margin-top: 2em;
+        }
+    #objectivesAside
+        {
+        padding-top: 0;
+        }
+    .jumpto
+        {
+        visibility: visible;
+        }
+    }
+@media (min-width: 1024px)
+    {
+    nav li
+        {
+        display: inline-block;
+        width: 7em;
+        padding: 0.5em;
+        }
+    nav ul
+        {
+        text-align: center;
+        }
+    main
+        {
+        float: left;
+        width: 65%;
+        padding: 1em;
+        margin-right: 0;
+        }
+    #image
+        {
+        width: 80%;
+        }
+    aside
+        {
+        margin-left: 72%;
+        padding-left: 2em;
+        }
+    .asidemain
+        {
+        visibility: hidden;
+        display: none;
+        }
+    .asidecontent
+        {
+        visibility: visible;
+        display: block;
+        }
+    figcaption
+        {
+        padding-bottom: 0;
+        }
+    nav
+        {
+        clear: both;
+        }
+    textarea
+        {
+        width: 50%;
+        height: 5em;
+        }
+    .center
+        {
+        text-align: left;
+        }
+    #paddingLeft
+        {
+        padding-left: 5%;
+        }
+    #paddingLeftOb
+        {
+        padding-left: 5%;
+        }
+    #headshot
+        {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        margin-bottom: 1em; 
+        width: 90%;
+        margin-top: 2em;
+        }
+    #htmlcss
+        {
+        width: 90%;
+        }
+    #jccc
+        {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+        padding-bottom: 1em; 
+        width: 40%;
+        margin-top: 2em;
+        }
+    #contactMain
+        {
+        display: none;
+        visibility: hidden;
+        }
+    .asidecontent p
+        {
+        text-align: center;
+        color: #073242;
+        }
+    .asidecontent a:hover
+        {
+        color: #248188;
+        }
+    #objectivesAside
+        {
+        padding-top: 2em;
+        }
+    .jumpto
+        {
+        display: none;
+        visibility: hidden;
+        }
+    #download
+        {
+        padding-bottom: 2em;
+        }
+    #spacing
+        {
+        padding-bottom: 1em;
+        padding-top: 1em;
+        }
+    }

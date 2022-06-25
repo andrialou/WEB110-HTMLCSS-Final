@@ -1,0 +1,25 @@
+#print
+    {
+    display: none;
+    }
+#jumpto
+    {
+    display: none;
+    }
+#download
+    {
+    display: none;
+    }
+#overflow
+    {
+    overflow-x: visible;
+    }
+th
+    {
+    padding-left: 0;
+    padding-right: 0;
+    }
+#image
+    {
+    border: none;
+    }

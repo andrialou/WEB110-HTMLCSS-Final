@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--Alexandria Schneider 5/8/21 Form page-->
+<html lang="en">
+<head>
+    <title>Web Scraping : Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="print.css" rel="stylesheet" media="print">
+    <style>
+        legend
+            {
+            font-size: 1.2em;
+            }
+        #myInfo label
+            {
+            display: block;
+            margin-bottom: 1em;
+            font-size: 1.2em;
+            }
+        #myInfo input
+            {
+            width: 25%;
+            }
+        #questions
+            {
+            margin-bottom: 1em;
+            }
+        #system
+            {
+            display: block;
+            margin-top: 1em;
+            font-size: 1.2em;
+            }
+        textarea
+            {
+            width: 100%;
+            height: 5em;
+            }
+        #comments
+            {
+            display: block;
+            margin-top: 1em;
+            font-size: 1.2em;
+            }
+        #submitReset
+            {
+            font-size: 1.2em;
+            text-align: center;
+            }
+        @media (min-width: 1024px)
+            {
+                textarea
+                    {
+                    width: 50%;
+                    height: 5em;
+                    }
+            }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1><a href="final1.html">Web Scraping</a></h1>
+        </header>
+        <nav id="print">
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Details</a></li>
+                <li><a href="final3.html">Contact</a></li>
+                <li><a href="final4.html">Credits</a></li>
+                <li><a href="final5.html">Objectives</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="contactMain">
+                <h2>Contact Us:</h2>
+                    <p class="center">Questions? Comments? Submit this form or send us an email.</p>
+                    <p class="center"><a href="mailto:aschne26@stumail.jccc.edu">aschne26@stumail.jccc.edu</a></p>
+            </div>
+            <form>
+                <fieldset id="myInfo">
+                <legend>Your Information:</legend>
+                    <label for="myEmail">Name: <input type="text" name="myEmail" id="myEmail"></label>
+
+                    <label for="myDate">Today's Date: <input type="date" name="myDate" id="myDate"></label>
+                </fieldset>
+
+                <fieldset id="questions">
+                <legend>Questions:</legend>
+                    <p>Do you think you will try web scraping?</p>
+                        <input type="radio" name="try" id="myRadio1" value="Yes">
+                        <label for="myRadio1">Yes</label><br>
+                        <input type="radio" name="try" id="myRadio2" value="No">
+                        <label for="myRadio2">No</label><br>
+                        <input type="radio" name="try" id="myRadio3" value="notSure">
+                        <label for="myRadio3">Not Sure</label><br>
+
+                    <p>Which coding language do you think you would use if you tried web scraping? Select all that apply:</p>
+                        <input type="checkbox" name="JavaScript" id="myCheckbox1" value="JavaScript">
+                        <label for="myCheckbox1">JavaScript</label><br>
+                        <input type="checkbox" name="Python" id="myCheckbox2" value="Python">
+                        <label for="myCheckbox2">Python</label><br>
+                        <input type="checkbox" name="R" id="myCheckbox3" value="R">
+                        <label for="myCheckbox3">R</label><br>
+
+                    <label for="system" id="system">Which operating system do you use?</label>
+                        <select size="1" name="system" id="system">
+                            <option>Mac</option>
+                            <option>Windows</option>
+                            <option>Linux</option>
+                            <option>Other</option><br>
+                        </select>
+                    
+                    <label for="comments" id="comments">Comments:</label>
+                        <textarea name="comments" id="comments" placeholder="Enter comments..."></textarea>
+                </fieldset>
+
+                <div id="submitReset">
+                    <input type="submit" name="submit" id="submitReset" value="Submit!">
+                    <input type="reset" name="reset" id="submitReset">
+                </div>
+
+                <div class="asidemain">
+                    <figure>
+                        <img id="headshot" src="headshot.jpg" alt="Picture of Alex Schneider">
+                        <figcaption>This website was created by Alex Schneider.</figcaption>
+                    </figure>
+                </div>
+            </form>
+        </main>
+        <aside class="asidecontent">
+            <h2>Contact Us:</h2>
+                <p class="center">Questions? Comments? Submit this form or send us an email.</p>
+                <p class="center"><a href="mailto:aschne26@stumail.jccc.edu">aschne26@stumail.jccc.edu</a></p>
+            <figure>
+                <img id="headshot" src="headshot.jpg" alt="Picture of Alex Schneider">
+                <figcaption>This website was created by Alex Schneider.</figcaption>
+            </figure>
+        </aside>
+        <nav id="print" class="bottomnav">
+            <ul>
+                <li><a href="final1.html">Home</a> </li>
+                <li><a href="final2.html">Details</a> </li>
+                <li><a href="final3.html">Contact</a> </li>
+                <li><a href="final4.html">Credits</a> </li>
+                <li><a href="final5.html">Objectives</a></li>
+            </ul>
+        </nav>
+        <footer>
+            Copyright &copy; 2021 Alexandria Schneider<br>
+            <a href="mailto:aschne26@stumail.jccc.edu">aschne26@stumail.jccc.edu</a>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
